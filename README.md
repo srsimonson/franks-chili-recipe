@@ -6,7 +6,6 @@ You know those scraps of paper you save but don't know what to do with? They mov
 ## the recipe
 
 <body>
-    <h1> Frank's Chili Recipe</h1>
     <ul>
         <li>1 Green Pepper</li>
         <li>1 Red Pepper</li>
