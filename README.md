@@ -1,5 +1,10 @@
 # franks-chili-recipe
 
+## about
+You know those scraps of paper you save but don't know what to do with? They move from drawer to drawer, apartment to apartment. Put on top of the to-do pile, only to get relegated to the later pile, and then shoved back in the drawer because someone is actually coming over and you don't want your place to look like a dump. The list of movies a friend told you to check out back in 2014. The genius world altering idea that came to you one day on the bus ride home from work. The time your roommate made the best chili you guys ever had just by winging it and the two of you tried to go back and remember what all he did because it was so good you had to write it down.
+
+## the recipe
+
 <body>
     <h1> Frank's Chili Recipe</h1>
     <ul>
