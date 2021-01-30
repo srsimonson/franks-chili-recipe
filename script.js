@@ -19,3 +19,20 @@
 //     console.log('hi');
 //     window.open('http://frankschili.app.link/KrYNWMS0rdb');
 // }
+
+var wizards = ['Hermione', 'Neville', 'Gandalf'];
+
+// Get the app element
+var app = document.querySelector('#app');
+
+// Create markup
+app.innerHTML = '<ul>' + wizards.map(function (wizard) {
+	return '<li>' + wizard + '</li>';
+}).join('') + '</ul>';
+
+const hiThere = document.querySelector
+
+const myElements = [1, 2, 3]
+Array.from(myElements).forEach('<ul>' + myElements.map(function (wizard) {
+	return '<li>' + wizard + '</li>';
+}).join('') + '</ul>')

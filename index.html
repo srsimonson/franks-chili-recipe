@@ -42,39 +42,26 @@ branch.link(linkData, function(err, link) {
   };
 //   document.getElementById('anchor').href = link || err;
 });
-
 </script>
+
 <body>
+    
+
     <h1> Frank's Chili Recipe</h1>
     <!-- <button onclick="branchEvent()">BRANCH EVENT</button> -->
-    <!-- shareable elements -->
-<button id="button">Deep Link New Tab</button>
-<!-- <a id="anchor" href="#">deep link</a> -->
-    <ul>
-        <li>1 Green Pepper</li>
-        <li>1 Red Pepper</li>
-        <li class="">2 Jalapenos</li>
-        <li class="">3 Habaneros</li>
-        <li class="">3 dried ??? </li>
-        <li class="">handful dried chilis</li>
-        <li class="">+/- 7 grams dried basil</li>
-        <li class="">+/- 5 shakes crushed red pepper</li>
-        <li class="">salt</li>
-        <li class="">3 shots bourbon</li>
-        <li class="">2-3 TBSP chili powder</li>
-        <li class="">bunch of garlic powder</li>
-        <li class="">ground pepper</li>
-        <li class="">3 bay leaves</li>
-        <li class="">1 1/2 lbs red kidney beans</li>
-        <li class="">3/4 lbs white northern beans</li>
-        <li class="">1 can gigantic diced tomatoes</li>
-        <li class="">2 cans crushed tomatoes</li>
-        <li class="">3 cans tomato paste</li>
-        <li class=""> 3/4 bag frozen corn</li>
-        <li class="">agave nectar</li>
-        <li class="">cinnamon</li>
-        <li class="">3# beef</li>
-        <li class="">1# spicy pork sausage</li>
-    </ul>
+    <button id="button">Click Here for Branch.io Deep Link</button>
+    <!-- <a id="anchor" href="#">deep link</a> -->
+    <div id="app"></div>
+    <script>
+        const ingredients = ['1 Green Pepper', '1 Red Pepper', '2 Jalapenos', '3 Habaneros', '3 dried ??? ', 'handful dried chilis', '+/- 7 grams dried basil', 'crushed red pepper +/- 5 shakes ', 'salt', '3 shots bourbon', '2-3 TBSP chili powder', 'bunch of garlic powder', 'ground pepper', '3 bay leaves', '1 1/2 lbs red kidney beans', '3/4 lbs white northern beans', '1 can gigantic diced tomatoes', '2 cans crushed tom', '3 \' \' tom paste', '3/4 bag froz corn', 'agave nectar', 'cinnamon', '3lb beef', '1lb spicy pork sausage'];
+        const list = document.createElement('ul');
+        ingredients.forEach(ingredient => {
+            const li = document.createElement('li');
+            li.textContent = ingredient;
+            list.appendChild(li);
+        });
+        var app = document.querySelector('#app');
+        app.appendChild(list);
+    </script>
 </body>
 </html>
