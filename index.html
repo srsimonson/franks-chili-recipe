@@ -36,7 +36,6 @@ var linkData = {
 };
 
 branch.link(linkData, function(err, link) {
-  // bind elements
   document.getElementById('button').onclick = function() {
     window.open(link || err);
   };
@@ -45,15 +44,15 @@ branch.link(linkData, function(err, link) {
 </script>
 
 <body>
-    
-
     <h1> Frank's Chili Recipe</h1>
     <!-- <button onclick="branchEvent()">BRANCH EVENT</button> -->
     <button id="button">Click Here for Branch.io Deep Link</button>
     <!-- <a id="anchor" href="#">deep link</a> -->
     <div id="app"></div>
     <script>
-        const ingredients = ['1 Green Pepper', '1 Red Pepper', '2 Jalapenos', '3 Habaneros', '3 dried ??? ', 'handful dried chilis', '+/- 7 grams dried basil', 'crushed red pepper +/- 5 shakes ', 'salt', '3 shots bourbon', '2-3 TBSP chili powder', 'bunch of garlic powder', 'ground pepper', '3 bay leaves', '1 1/2 lbs red kidney beans', '3/4 lbs white northern beans', '1 can gigantic diced tomatoes', '2 cans crushed tom', '3 \' \' tom paste', '3/4 bag froz corn', 'agave nectar', 'cinnamon', '3lb beef', '1lb spicy pork sausage'];
+        const ingredients = [
+            '1 Green Pepper', '1 Red Pepper', '2 Jalapenos', '3 Habaneros', '3 dried ??? ', 'handful dried chilis', '+/- 7 grams dried basil', 'crushed red pepper +/- 5 shakes ', 'salt', '3 shots bourbon', '2-3 TBSP chili powder', 'bunch of garlic powder', 'ground pepper', '3 bay leaves', '1 1/2 lbs red kidney beans', '3/4 lbs white northern beans', '1 can gigantic diced tomatoes', '2 cans crushed tom', '3 \' \' tom paste', '3/4 bag froz corn', 'agave nectar', 'cinnamon', '3lb beef', '1lb spicy pork sausage'
+        ];
         const list = document.createElement('ul');
         ingredients.forEach(ingredient => {
             const li = document.createElement('li');
