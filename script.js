@@ -1,5 +1,5 @@
 var linkData = {
-	campaign: 'Range Digital Test',
+	campaign: 'Range Digital Test from script.js',
 	channel: 'facebook',
 	feature: 'dashboard',
 	stage: 'new user',
